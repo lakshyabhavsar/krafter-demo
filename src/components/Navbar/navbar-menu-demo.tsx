@@ -100,19 +100,19 @@ function Navbar({ className }: { className?: string }) {
               <ProductItem
                 title="Mobile App Development"
                 href="/services/mobile"
-                src="https://assets.aceternity.com/demos/algochurn.webp"
+                src="/images/thumbnails/app-development-thumbnail.png"
                 description="Modern, scalable websites and web apps for your business."
               />
               <ProductItem
                 title="Website Development"
                 href="/website"
-                src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
+                src="/images/thumbnails/web-development-thumbnail.png"
                 description="Beautiful, user-friendly interfaces for web and mobile."
               />
               <ProductItem
                 title="ERP Solutions"
                 href="/services/erp"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+                src="/images/thumbnails/ERP-thumbnail.png"
                 description="Boost your online visibility and search rankings."
               />
             </div>
@@ -127,44 +127,44 @@ function Navbar({ className }: { className?: string }) {
               />
               <ProductItem
                 title="Machine Learning"
-                href="/data/analytics"
+                href="/data-science/machine-learning"
                 src="/images/thumbnails/ML-thumbnail.png"
                 description="Build predictive models and automate decision-making processes through algorithms that learn from data."
               />
               <ProductItem
                 title="Big Data"
                 href="/data/business-intelligence"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+                src="/images/thumbnails/big-data-thumbnail.png"
                 description="Handle and analyze massive volumes of structured and unstructured data for actionable business intelligence."
               />
               <ProductItem
                 title="Data Analysis"
                 href="/data/business-intelligence"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+                src="/images/thumbnails/data-analysis-thumbnail.png"
                 description="Interpret complex data sets to identify trends, relationships, and meaningful insights for decision-making."
               />
               <ProductItem
                 title="NLP"
                 href="/data/business-intelligence"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-                description="Enable machines to understand, interpret, and generate human language using AI-powered linguistic analysis."
+                src="/images/thumbnails/NLP-thumbnail.png"
+                description="NLP (Natural Language Processing) is a field of AI that focuses on enabling computers to understand, interpret, and generate human language."
               />
               <ProductItem
                 title="Cloud Computing"
                 href="/data/business-intelligence"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+                src="/images/thumbnails/cloud-computing-thumbnail.png"
                 description="Access scalable computing resources and data storage on-demand through cloud platforms like AWS, Azure, or Google Cloud."
               />
               <ProductItem
                 title="Data Visualization"
                 href="/data/business-intelligence"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+                src="/images/thumbnails/data-visualization-thumbnail.png"
                 description="Transform raw data into interactive charts, graphs, and dashboards to communicate insights clearly and effectively."
               />
               <ProductItem
                 title="Data Exploration"
-                href="/data/business-intelligence"
-                src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+                href="/data-science/data-exploration"
+                src="/images/thumbnails/data-exploration-thumbnail.png"
                 description="Conduct initial investigations of data sets to uncover patterns, spot anomalies, and generate hypotheses."
               />
             </div>

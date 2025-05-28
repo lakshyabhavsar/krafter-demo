@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import React from 'react';
-import { ArrowRight, Play, Sparkles, TrendingUp, Users, Zap } from 'lucide-react';
+import { ArrowRight, Sparkles, TrendingUp, Users, Zap } from 'lucide-react';
 
 export default function HeroSection() {
   return (

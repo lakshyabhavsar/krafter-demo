@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { BarChart3, FileText, Package, Clock, Truck, Receipt, Send, Archive, RotateCcw } from 'lucide-react';
+import { BarChart3, FileText, Package, Clock, Truck, Receipt, Archive, RotateCcw } from 'lucide-react';
 
 const features = [
   { name: 'Sales Quotation', icon: FileText, color: 'from-blue-500 to-blue-600' },

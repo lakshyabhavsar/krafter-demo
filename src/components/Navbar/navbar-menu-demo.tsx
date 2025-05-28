@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -16,10 +16,32 @@ export function NavbarDemo() {
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(true);
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY < 10) {
+        setShowNavbar(true);
+      } else if (currentScrollY > lastScrollY.current) {
+        setShowNavbar(false); // scrolling down
+      } else {
+        setShowNavbar(true); // scrolling up
+      }
+      lastScrollY.current = currentScrollY;
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-4xl mx-auto z-50", className)}
+      className={cn(
+        "fixed top-10 inset-x-0 max-w-4xl mx-auto z-50 transition-transform duration-300",
+        showNavbar ? "translate-y-0" : "-translate-y-[120%]",
+        className
+      )}
     >
       <Menu setActive={setActive}>
         <span className="flex items-center relative pl-0 pr-16 justify-start mr-auto">

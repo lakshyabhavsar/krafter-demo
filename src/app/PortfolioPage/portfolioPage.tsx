@@ -29,10 +29,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "Portfolio Platform",
+    title: "Purchase Management System",
     categories: ["Website Development", "UI/UX"],
     image: "/images/thumbnails/purchase-thumbnail.png",
-    href: "/landing-pages/purchase",
+    href: "/landing-pages/purchase-management",
   },
   {
     id: 3,

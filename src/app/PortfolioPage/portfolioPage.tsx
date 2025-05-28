@@ -22,16 +22,17 @@ const projects = [
   // },
   {
     id: 1,
-    title: "Landing Pages",
+    title: "Dharma ERP Sales",
     categories: ["Website Development", "UI/UX"],
-    image: "/images/portfolio/portfolio1.png",
-    href: "/chat-bot",
+    image: "/images/thumbnails/slaes-thumbnail.png",
+    href: "/landing-pages/sales",
   },
   {
     id: 2,
     title: "Portfolio Platform",
     categories: ["Website Development", "UI/UX"],
-    image: "/images/portfolio/portfolio1.png",
+    image: "/images/thumbnails/purchase-thumbnail.png",
+    href: "/landing-pages/purchase",
   },
   {
     id: 3,

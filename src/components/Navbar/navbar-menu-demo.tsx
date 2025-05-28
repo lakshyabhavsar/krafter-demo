@@ -100,13 +100,13 @@ function Navbar({ className }: { className?: string }) {
               <ProductItem
                 title="Data Mining"
                 href="/data-science/data-mining"
-                src="https://assets.aceternity.com/demos/algochurn.webp"
+                src="/images/thumbnails/data-mining-thumbnail.png"
                 description="Discover patterns and insights from large datasets using advanced statistical and computational techniques."
               />
               <ProductItem
                 title="Machine Learning"
                 href="/data/analytics"
-                src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
+                src="/images/thumbnails/ML-thumbnail.png"
                 description="Build predictive models and automate decision-making processes through algorithms that learn from data."
               />
               <ProductItem

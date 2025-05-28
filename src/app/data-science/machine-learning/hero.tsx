@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain, Zap, Globe, TrendingUp, Users, Shield, ChevronRight, Sparkles, ArrowRight, Star } from 'lucide-react';
+import { Brain, ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (

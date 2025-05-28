@@ -1,4 +1,3 @@
-import { Brain, Zap, Globe, TrendingUp, Users, Shield } from 'lucide-react';
 
 export function CTASection() {
   return (

@@ -6,7 +6,7 @@ import { Spotlight } from "./spotlight"
  
 export function RobotSection() {
   return (
-    <Card className="w-full h-[100vh] bg-black/[0.96] relative overflow-hidden">
+    <Card className="w-full h-[100vh] bg-gradient-to-b from-black via-neutral-800 to-gray-700 relative overflow-hidden">
       <Spotlight
         size={400}
         springOptions={{ bounce: 0.5, damping: 10 }}

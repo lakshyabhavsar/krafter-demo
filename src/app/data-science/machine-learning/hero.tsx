@@ -10,11 +10,11 @@ export default function Hero() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-6 leading-tight">
-                How I've Witnessed
+                {"How I've Witnessed"}
                 <span className="block text-blue-400">Machine Learning Transform Everything</span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl font-normal text-gray-200 mb-8 leading-relaxed">
-                As a developer, I've been at the forefront of the AI revolution. Let me share how machine learning has reshaped not just technology, but the entire way I approach problem-solving and innovation.
+                {"As a developer, I've been at the forefront of the AI revolution. Let me share how machine learning has reshaped not just technology, but the entire way I approach problem-solving and innovation."}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-700 transition-all duration-300 flex items-center justify-center">

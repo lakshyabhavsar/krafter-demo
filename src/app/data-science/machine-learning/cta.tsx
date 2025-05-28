@@ -11,7 +11,7 @@ export function CTASection() {
               My Current AI Renaissance
             </h2>
             <p className="text-[22px] font-normal text-blue-100 mb-8" style={{ color: "#364153" }}>
-              I'm living in a transformative era where the AI capabilities I work with are accelerating exponentially.
+              {"I'm living in a transformative era where the AI capabilities I work with are accelerating exponentially."}
             </p>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
@@ -20,7 +20,7 @@ export function CTASection() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-2" style={{ color: "#364153" }}>Generative AI Integration</h4>
-                <p className="text-blue-100" style={{ color: "#364153" }}>I'm integrating large language models and creative AI into my projects, reshaping how my clients work, learn, and communicate.</p>
+                <p className="text-blue-100" style={{ color: "#364153" }}>{"I'm integrating large language models and creative AI into my projects, reshaping how my clients work, learn, and communicate."}</p>
               </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -29,7 +29,7 @@ export function CTASection() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-2" style={{ color: "#364153" }}>Autonomous Systems Development</h4>
-                <p className="text-blue-100" style={{ color: "#364153" }}>I'm building intelligent systems, smart applications, and automated decision-making tools that are becoming reality.</p>
+                <p className="text-blue-100" style={{ color: "#364153" }}>{"I'm building intelligent systems, smart applications, and automated decision-making tools that are becoming reality."}</p>
               </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -54,8 +54,8 @@ export function CTASection() {
                   My Development Era
                 </h3>
                 <p className="text-blue-100" style={{ color: "#364153" }}>
-                  I've reached the point where my AI implementations are accelerating exponentially, 
-                  making the impossible possible across every domain I work in.
+                  {"I've reached the point where my AI implementations are accelerating exponentially, "}
+                  {"making the impossible possible across every domain I work in."}
                 </p>
               </div>
             </div>

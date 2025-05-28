@@ -12,8 +12,8 @@ export function FeaturesSection() {
             Why I Believe Machine Learning Matters Today
           </h2>
           <p className="text-[22px] font-normal text-gray-600 max-w-3xl mx-auto">
-            Through my development journey, I've seen how machine learning has become the cornerstone of innovation, 
-            driving unprecedented advancements across every project I touch.
+            {"Through my development journey, I've seen how machine learning has become the cornerstone of innovation, "}
+            {"driving unprecedented advancements across every project I touch."}
           </p>
         </div>
 

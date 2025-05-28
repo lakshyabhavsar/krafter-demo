@@ -29,8 +29,8 @@ export function Statistic() {
     <div className="py-24 bg-gradient-to-br from-[#f0f4ff] via-[#e0e7ff] to-[#f0f0f0] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-            <h2 className="text-[42px] font-semibold mb-4 tracking-tight" style={{ color: '#6657F6' }}>What I've Observed</h2>
-          <p className="text-[20px] text-gray-400 max-w-2xl mx-auto">Machine Learning impact that I've witnessed firsthand</p>
+            <h2 className="text-[42px] font-semibold mb-4 tracking-tight" style={{ color: '#6657F6' }}>{"What I've Observed"}</h2>
+          <p className="text-[20px] text-gray-400 max-w-2xl mx-auto">{"Machine Learning impact that I've witnessed firsthand"}</p>
         </div>
         <motion.div
           variants={container}

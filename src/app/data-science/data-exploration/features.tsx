@@ -11,7 +11,7 @@ export default function FeaturesSection() {
               Why Data Exploration Matters to Me
             </h2>
             <p className="text-lg leading-relaxed mb-6 text-indigo-900/90">
-              In my journey as a data scientist, I've learned that data exploration isn't just a preliminary step—it's the foundation that determines the success of every project. It's where I uncover the stories that raw data wants to tell.
+              {"In my journey as a data scientist, I've learned that data exploration isn't just a preliminary step—it's the foundation that determines the success of every project. It's where I uncover the stories that raw data wants to tell."}
             </p>
             <p className="text-lg leading-relaxed text-indigo-900/90">
               Through exploration, I transform chaotic datasets into meaningful insights, identifying patterns that drive business decisions and innovation.

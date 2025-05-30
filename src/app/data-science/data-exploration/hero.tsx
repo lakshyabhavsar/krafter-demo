@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, BarChart3, TrendingUp, Eye, Lightbulb, Database, ArrowRight, Sparkles, LineChart, PieChart } from 'lucide-react';
+import { Search } from 'lucide-react';
 export default function Hero() {
   return (
      <div className="min-h-screen relative overflow-hidden">
@@ -19,7 +19,7 @@ export default function Hero() {
               </span>
             </h1>
             <p className="text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Hi, I'm <span className="text-cyan-400 font-semibold">codeKrafter</span>, and I believe data exploration is the cornerstone of every successful data science project. It's where stories hidden in numbers come to life.
+              {"Hi, I'm"} <span className="text-cyan-400 font-semibold">codeKrafter</span>{", and I believe data exploration is the cornerstone of every successful data science project. It's where stories hidden in numbers come to life."}
             </p>
           </div>
         </div>

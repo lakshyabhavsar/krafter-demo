@@ -32,10 +32,10 @@ export default function FeaturesSection() {
                                 Why Data Mining Matters Today
                             </h2>
                             <p className="text-2xl text-gray-700 leading-relaxed mb-6 animate-fade-in">
-                                As codeKrafter, I've witnessed firsthand how data mining has evolved from a niche technical practice to an essential business capability. In this current phase of digital transformation, organizations are drowning in data but starving for insights. Data mining bridges this gap, turning raw information into actionable intelligence.
+                                {"As codeKrafter, I've witnessed firsthand how data mining has evolved from a niche technical practice to an essential business capability. In this current phase of digital transformation, organizations are drowning in data but starving for insights. Data mining bridges this gap, turning raw information into actionable intelligence."}
                             </p>
                             <p className="text-2xl text-gray-700 leading-relaxed animate-fade-in">
-                                The importance of data mining today cannot be overstated. We're living in an era where data is generated at an unprecedented scale—every click, transaction, and interaction creates valuable information that, when properly analyzed, can reveal patterns that drive innovation and competitive advantage.
+                                {"The importance of data mining today cannot be overstated. We're living in an era where data is generated at an unprecedented scale—every click, transaction, and interaction creates valuable information that, when properly analyzed, can reveal patterns that drive innovation and competitive advantage."}
                             </p>
                         </div>
                     </div>

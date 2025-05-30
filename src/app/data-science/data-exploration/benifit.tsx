@@ -1,5 +1,4 @@
  import React from 'react';
- import { Search, BarChart3, TrendingUp, Eye, Lightbulb, Database, ArrowRight, Sparkles, LineChart, PieChart } from 'lucide-react';
  export default function BenefitSection() {
    return (
 <section className="py-16 px-6 md:px-20 bg-gradient-to-br from-[#f0f4ff] via-[#e0e7ff] to-[#f0f0f0]">
@@ -8,7 +7,7 @@
       Explore Your Data with Confidence
     </h2>
     <p className="text-lg text-gray-700 mb-12">
-      Our platform empowers you to uncover insights, identify patterns, and make informed decisions with ease. Whether you're a data enthusiast or a business analyst, our intuitive tools are designed to support every level of exploration.
+      {"Our platform empowers you to uncover insights, identify patterns, and make informed decisions with ease. Whether you're a data enthusiast or a business analyst, our intuitive tools are designed to support every level of exploration."}
     </p>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

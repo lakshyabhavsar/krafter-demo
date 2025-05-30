@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { Database, TrendingUp, Brain, Shield, Target, Zap, BarChart3, Users, ChevronDown, Sparkles } from 'lucide-react';
+import {TrendingUp, Shield, Target, Zap, BarChart3, Users } from 'lucide-react';
 
 export default function BenefitSection() {
     const [isVisible, setIsVisible] = useState({ benefits: false });

@@ -20,7 +20,7 @@ export default function CTASection() {
           </span>
         </h2>
         <p className="text-xl text-gray-800 mb-10 max-w-2xl mx-auto">
-          As <strong className="font-semibold">codeKrafter</strong>, I'm passionate about helping organizations unlock the full potential of their data through systematic exploration.
+          As <strong className="font-semibold">codeKrafter</strong>{", I'm passionate about helping organizations unlock the full potential of their data through systematic exploration."}
         </p>
         <motion.button
           whileHover={{ scale: 1.05 }}

@@ -25,7 +25,7 @@ export default function CTASection() {
                     Ready to Harness the Power of Data?
                 </h2>
                 <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-                    As codeKrafter, I believe that understanding and implementing data mining strategies is no longer optional—it's essential for survival and growth in today's digital economy.
+                    {"As codeKrafter, I believe that understanding and implementing data mining strategies is no longer optional—it's essential for survival and growth in today's digital economy."}
                 </p>
                 <div className="inline-flex items-center gap-4 bg-gradient-to-r from-purple-600 via-pink-500 to-cyan-400 text-white px-12 py-6 rounded-3xl font-medium shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 hover:-rotate-1 cursor-pointer animate-bounce">
                     <Database className="w-6 h-6 animate-spin" style={{ animationDuration: '3s' }} />

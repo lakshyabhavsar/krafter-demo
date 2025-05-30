@@ -76,8 +76,8 @@ const ImportanceSection = () => {
             Why Mobile App Development Matters
           </h2>
           <p className="text-[22px] text-gray-600 max-w-3xl mx-auto">
-            In today's digital-first world, mobile applications have become the
-            cornerstone of business success and user engagement.
+            {"In today's digital-first world, mobile applications have become the"}
+            {"cornerstone of business success and user engagement."}
           </p>
         </div>
 

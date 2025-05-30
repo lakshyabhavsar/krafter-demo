@@ -44,7 +44,7 @@ export default function MethodologySection() {
           </span>
         </h2>
         <p className="text-xl text-gray-700 max-w-2xl mx-auto mt-4">
-          Over the years, I've refined a systematic approach that consistently delivers insights.
+          {"Over the years, I've refined a systematic approach that consistently delivers insights."}
         </p>
       </div>
 

@@ -185,8 +185,8 @@ export const Vortex = (props: VortexProps) => {
   };
 
   const resize = (
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     canvas: HTMLCanvasElement,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     _ctx?: CanvasRenderingContext2D,
     
   ) => {

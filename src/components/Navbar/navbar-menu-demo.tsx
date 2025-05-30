@@ -99,7 +99,7 @@ function Navbar({ className }: { className?: string }) {
             <div className="text-sm grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 p-2 md:p-4 w-full max-w-xl">
               <ProductItem
                 title="Mobile App Development"
-                href="/services/mobile"
+                href="/mobile"
                 src="/images/thumbnails/app-development-thumbnail.png"
                 description="Modern, scalable websites and web apps for your business."
               />

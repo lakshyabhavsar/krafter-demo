@@ -1,4 +1,4 @@
-"@typescript-eslint/no-unused-vars";
+
 import { cn } from "@/lib/utils";
 import React, { useEffect, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
@@ -185,6 +185,7 @@ export const Vortex = (props: VortexProps) => {
   };
 
   const resize = (
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     canvas: HTMLCanvasElement,
     _ctx?: CanvasRenderingContext2D,
     
